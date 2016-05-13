@@ -37,29 +37,35 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">IT-Support</a>
+          <a class="navbar-brand" href="/">IT-Support</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Главная</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Информация <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/">Просмотр</a></li>
+                <li><a href="add.html">Добавить</a></li>
+              </ul>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">База заявок <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Менеджер</a></li>
+                <li><a href="#">Просмотр</a></li>
                 <li><a href="#">Добавить</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">База устройств <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Менеджер</a></li>
+                <li><a href="#">Просмотр</a></li>
                 <li><a href="#">Добавить</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">База пользователей <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Менеджер</a></li>
+                <li><a href="#">Просмотр</a></li>
                 <li><a href="#">Добавить</a></li>
               </ul>
             </li>
@@ -76,7 +82,7 @@
                 </div>
                 <article>
                     <header>
-                        <h4><a href="#">Заголовок Первого Сообщения</a></h4>
+                        <h4 class="text-capitalize"><a href="#">Заголовок первого сообщения</a></h4>
                     </header>
                     <p>
 						Текст первого информационного соощения. Текст 
@@ -101,7 +107,7 @@
                 </article>
                 <article>
                     <header>
-                        <h4><a href="#">Заголовок Второго Сообщения</a></h4>
+                        <h4 class="text-capitalize"><a href="#">Заголовок второго сообщения</a></h4>
                     </header>
                     <p>
 						Текст второго информационного соощения. Текст 
