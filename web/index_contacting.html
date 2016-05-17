@@ -52,7 +52,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">База заявок <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="/index_contacting.html">Просмотр</a></li>
-                <li><a href="#">Добавить</a></li>
+                <li><a href="/add_contacting.html">Добавить</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -82,7 +82,31 @@
                 </div>
                 <div class="container">
                 <!-- Текст страницы тут -->
-                
+
+					<form class="form-inline">
+					  <div class="form-group">
+						<label for="filter_status" class="control-label">Статус</label>
+						<select class="form-control" id="filter_status" name="filter_status">
+							<option></option>
+							<option>Добавлена</option>
+							<option>В работе</option>
+							<option>Отложена</option>
+							<option>Выполнена</option>
+						</select>
+					  </div>
+					  <div class="form-group">
+						<label for="filter_prioritet" class="control-label">Приоритет</label>
+						<select class="form-control" id="filter_prioritet" name="filter_prioritet">
+							<option></option>
+							<option>Низкий</option>
+							<option>Нормальный</option>
+							<option>Высокий</option>
+							<option>Срочно</option>
+						</select>
+					  </div>
+					  <button type="submit" class="btn btn-default">Обновить</button>
+					</form>
+					<br /><br />
 					<table class="table table-bordered"> 
 						<thead> 
 							<tr class="text-center"> 
@@ -102,40 +126,32 @@
 						<tbody> 
 							<tr> 
 								<th scope="row">1</th> 
-								<td>Mark</td> 
-								<td>Otto</td> 
-								<td>@mdo</td> 
-							</tr> 
+								<td>Заголовок первой задачи</td> 
+								<td>Добавлена</td> 
+								<td>БГА</td>
+								<td>Макарин</td>
+								<td>Макарин</td>
+								<td>Срочно</td>
+								<td>10.05.2016</td>
+								<td>10:45</td>
+								<td>10.05.2016</td>
+								<td>11:05</td> 
+							</tr>
 							<tr> 
 								<th scope="row">2</th> 
-								<td>Jacob</td> 
-								<td>Thornton</td> 
-								<td>@fat</td> 
-							</tr> 
-							<tr> 
-								<th scope="row">3</th> 
-								<td>Larry</td> 
-								<td>the Bird</td> 
-								<td>@twitter</td>
-                            </tr>
+								<td>Заголовок второй задачи</td> 
+								<td>Добавлена</td> 
+								<td>Первый хлебозавод</td>
+								<td>Макарин</td>
+								<td>Макарин</td>
+								<td>Нормально</td>
+								<td>12.05.2016</td>
+								<td>13:45</td>
+								<td>12.05.2016</td>
+								<td>14:55</td> 
+							</tr>
                           </tbody>
                       </table>
-                 
-                <table class="table table-bordered">
-				    <tr>
-				        <td>ID</td>
-				        <td>Заголовок задачи</td>
-						<td>Статус</td>
-				        <td>Задачу поставил</td>
-				        <td>Задачу добавил</td>
-				        <td>Ответственный</td>
-				        <td>Приоритет</td>
-				        <td>Дата обращения</td>
-				        <td>Время обращения</td>
-				        <td>Дата добавления</td>
-				        <td>Время добавления</td>
-				    </tr>
-				</table>
                </div>
             </section>
     </div>
