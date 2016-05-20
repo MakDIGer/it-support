@@ -10,17 +10,109 @@
     color: #ffffff;
 }
 
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover {
     color: #5b93ce;
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #5b93ce;
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff;
+    background-color: #5b93ce;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #eeeeee;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    color: #5b93ce;
+    background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #5b93ce;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #5b93ce;
+  background-color: #ffffff;
+}
+
+.panel-heading > .dropdown .dropdown-toggle {
+  color: #ffffff;
+}
+
+.dropdown-menu > li > a {
+  color: #5b93ce;
+}
+
+.dropdown-menu > li > a:hover {
+  color: #5b93ce;
+  text-decoration: none;
+  background-color: #DEE5ED;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:focus
+{
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:hover {
     background-color: #DEE5ED;
 }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-    color: #5b93ce;
-    background-color: #ffffff;
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #DEE5ED;
 }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-    color: #5b93ce;
-    background-color: #ffffff;
+.footer {
+    background-color: #5b93ce;
+}
+
+.text-muted {
+    color: #ffffff;
+}
+
+.article {
+	margin: 30px 0px 30px 0px;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+		color: #5b93ce;
+		background-color: #ffffff;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #5b93ce;
+		background-color: #ffffff
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: #DEE5ED;
+  }
 }
